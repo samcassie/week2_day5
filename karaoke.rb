@@ -1,6 +1,6 @@
 class Karaoke
 
-    attr_accessor :name, :rooms, :entry_fee
+    attr_accessor :name, :rooms,
 
     def initialize(name)
         @name = name

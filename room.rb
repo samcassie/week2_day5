@@ -2,7 +2,7 @@ require_relative('karaoke.rb')
 
 class Room < Karaoke
 
-    attr_accessor :song, :max_capacity, :guests, :bar_tab
+    attr_accessor :song, :max_capacity, :guests, :bar_tab, :entry_fee
 
     def initialize(max_capacity)
         @song = ""
